@@ -1,0 +1,86 @@
+*, h2 {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box; }
+#content{display: none;}
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.box {
+  width: 100%;
+  height: 100%;
+  overflow: auto; }
+  .box header {
+    padding: 16px 15px;
+    position: relative; }
+    .box header span:first-child {
+      float: left;
+      left: 0;
+      font-size: 16px; }
+    .box header div {
+      width: 100%;
+      text-align: center; }
+    .box header span:last-child {
+      position: absolute;
+      font-size: 16px;
+      top: 16px;
+      right: 15px;
+      color: black; }
+  .box .poster img {
+    width: 100%;
+    max-width: 100%;
+    height: 130px; }
+  .box section {
+    padding: 0  10px; }
+    .box section h2 {
+      font-size: 16px;
+      margin: 0 5px;
+      line-height: 35px; }
+      .box section h2 i {
+        display: inline-block;
+        text-align: center;
+        background: black;
+        width: 35px;
+        height: 35px;
+        float: right;
+        margin-top: -3px;
+        margin-right: 5px;
+        border-radius: 50%; }
+        .box section h2 i img {
+          width: 20px;
+          height: 20px;
+          margin-bottom: 2px; }
+    .box section .content {
+      padding: 0 10px;
+      line-height: 25px;
+      font-size: 12px; }
+    .box section .blank {
+      width: 100%;
+      height: 10px;
+      margin-bottom: 7px;
+      border-bottom: 1px solid gainsboro; }
+    .box section .xin {
+      margin-bottom: 0px; }
+      .box section .xin li {
+        list-style-type: square;
+        font-size: 12px;
+        line-height: 40px;
+        position: relative;
+        padding: 0 0 0 12px; }
+        .box section .xin li i {
+          width: 4px;
+          height: 4px;
+          position: absolute;
+          left: 0;
+          top: 18px;
+          background: black;
+          border-radius: 50%; }
+        .box section .xin li a {
+          color: black; }
+        .box section .xin li span {
+          float: right; }
+
+/*# sourceMappingURL=yinshua.css.map */
